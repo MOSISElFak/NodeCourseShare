@@ -54,13 +54,6 @@ admin.initializeApp({
     databaseURL: "https://courseshare-45de6.firebaseio.com"
 });
 
-// var ref = admin.database().ref().child('test').child("bakster");
-//
-// var object = new Object({});
-// object.name = "Glogec";
-// object.description = "Vic";
-//
-// ref.push().set(object);
 
 // var ref = admin.database().ref('lectures');
 // ref.on('value', function (snapshot) {
